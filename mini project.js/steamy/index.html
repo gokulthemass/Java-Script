@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steamy</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1 class="h11">Steamy</h1>
+    </div>
+
+    <div class="container">
+        <div class="gamecontainer">
+            <h2>Sekiro</h2>
+            <h4>Game type</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi ex dolore impedit facilis iste aspernatur sit recusandae magni eaque.</p>
+        <button onclick="deletegame(event)">Delete</button>
+        </div>
+
+        <div class="overlay"></div>
+        <div class="popup">
+            <h2>Add Game</h2>
+            <form>
+                <input type="text" placeholder="Game Name" id="gamename">
+                <input type="text" placeholder="Game Type" id="gametype">
+                <textarea  id="gamedescription" placeholder="Game Description"></textarea>
+
+                <button id="addgame">ADD</button>
+                <button id="cancelgame">CANCEL</button>
+            </form>
+        </div>
+
+    </div>
+    
+      <button class="addbtn" id="addbtn">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

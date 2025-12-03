@@ -1,0 +1,31 @@
+table{
+    background-color: olive;
+    border: 1px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+caption{
+    background-color: brown;
+    border: 1px;
+    color: azure;
+}
+
+button{
+    margin: 2px;
+    width: 80px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.firstnumber{
+    color: aqua;
+}
+
+.secondnumber{
+    color: greenyellow;
+}

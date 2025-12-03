@@ -1,0 +1,17 @@
+
+.TECH-QUIZY{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.tq {
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+

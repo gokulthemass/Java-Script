@@ -1,0 +1,65 @@
+<table class="table1">
+  <tr>
+    <td class="mr"><h1>MR. CURRENCY</h1></td>
+    <td class="right">
+            <button class="login" id="openlogin" (click)=" ngAfterViewInit()">Login</button>
+            <div class="login_modal" id="loginmodal">
+              <div class="login_content">
+                <div class="login_close">
+                  <button class="login_close_btn" id="loginclose"> X </button>
+                </div>
+                <table class="loginpop">
+                <tr class="loginpop1">
+                  <td>id:</td>
+                  <td><input type="text" placeholder="id"></td>
+                </tr>
+                <tr class="loginpop2">
+                  <td>passcode</td>
+                  <td><input type="password" placeholder="passcode"></td>
+                </tr>
+                </table>
+                <button class="sub-btn">Submit</button>
+              </div>
+            </div>
+            <span class="or">/</span>
+            <button class="register" href="#" id="openreg" (click)=" ngAfterViewInit()">Register</button>
+             <div class="reg_modal" id="regmodal">
+              <div class="reg_content">
+                <div class="reg_close">
+                  <button class="reg_close_btn" id="regclose"> X </button>
+                </div>
+                <table class="regpop">
+                  <tr class="regpop1">
+                  <div>id:</div>
+                  <div><input type="text" placeholder="id"></div>
+                  </tr>
+                  <tr class="regpop2">
+                  <div>passcode</div>
+                  <div><input type="password" placeholder="passcode"></div>
+                  </tr>
+                </table>
+                <button class="regsub-btn">Submit</button>
+              </div>
+            </div>
+          </td>
+  </tr>
+</table>
+<div class="container">
+  <div class="h2"><p>CURRENCY EXCHANGE</p></div>
+  <div class="currency_details"><a href="#" id="openmodal" (click)=" ngAfterViewInit()"> CURRENCY DETAILS </a></div>
+  <div id="myModal" class="modal">
+  <div class="modal-content">
+    <div class="close">
+    <button class="close-btn" id="closeModal"> X </button>
+    </div>
+    <div class="pop">
+    <div>CURRENCY DETAILS</div>
+    <div class="cd">1 Dollar = 87 Rupees</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Render child components (Body and End) -->
+<app-body></app-body>
+<app-end></app-end>

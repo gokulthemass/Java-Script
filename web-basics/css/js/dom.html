@@ -1,0 +1,22 @@
+
+<input id="one" value="0">
+<input id="two" value="0">
+<button onclick="resultt()">Add</button>
+<p id="result">Result</p>
+
+<script>
+
+    var input1 = document.getElementById("one");
+    var input2 = document.getElementById("two");
+    var result = document.getElementById("result");
+
+    function resultt(){
+
+    var valuebox1 = Number(input1.value);
+    var valuebox2 = Number(input2.value);
+    var total = valuebox1 + valuebox2;
+
+        result.textContent = total;
+    }
+
+</script>

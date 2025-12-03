@@ -1,0 +1,95 @@
+
+<h1>STUDENT FORM</h1>
+
+<table border="1">
+  <tr>
+    <td>Name</td><td><input type="text" id="name_input"></td>
+  </tr>
+
+  <tr>
+    <td>Age</td><td><input type="number" id="age_input"></td>
+  </tr>
+
+  <tr>
+    <td>Gender</td><td style="text-align: right;">
+      <select id="gender_input">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>course</td>
+    <td style="text-align: right;">
+      <select id="course_input">
+        <option>DSA</option>
+        <option>DAA</option>
+        <option>PDSD</option>
+        <option>DSP</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Mail</td><td><input type="email" id="mail_input"></td>
+  </tr>
+ 
+</table>
+<tr>
+  <td ><input type="button" onclick="call()" value="Save" style="width: 230px;"></td>
+</tr>
+
+
+<table border="1" id="result">
+  <tr>
+    <td>Name</td><td>Age</td><td>Gender</td><td>course</td><td>Mail</td><td id="action">Action</td>
+  </tr>
+</table>
+
+<script>
+
+
+function call(){
+
+var name = document.getElementById("name_input");
+var age = document.getElementById("age_input");
+var gender = document.getElementById("gender_input");
+var course = document.getElementById("course_input");
+var mail = document.getElementById("mail_input");
+
+var row = document.createElement("tr");
+
+td1 = document.createElement("td")
+td1.innerHTML=name.value;
+row.append(td1)
+
+td2 = document.createElement("td")
+td2.innerHTML=age.value;
+row.append(td2)
+
+td3 = document.createElement("td")
+td3.innerHTML=gender.value;
+row.append(td3)
+
+td4 = document.createElement("td")
+td4.innerHTML=course.value;
+row.append(td4)
+
+td5 = document.createElement("td")
+td5.innerHTML=mail.value;
+row.append(td5)
+
+td6 = document.createElement("td")
+td6.innerHTML="<button onclick='deletee(event)'>Delete</button>"
+row.append(td6)
+
+document.getElementById("result").append(row);
+
+}
+
+function deletee(event){
+  event.target.parentElement.parentElement.remove();
+}
+
+</script>

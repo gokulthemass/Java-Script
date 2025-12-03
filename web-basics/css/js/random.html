@@ -1,0 +1,40 @@
+<h1>Guess the Number from 1 to 10</h1>
+<input id="input" >
+<button onclick="checkk()">check</button>
+
+<P id="score">SCORE = 10</P>
+
+<p id="result">results</p>
+
+<script>
+    var input = document.getElementById("input");
+    var result= document.getElementById("result");
+    var score = document.getElementById("score");
+
+    var finalscore = 10;
+
+    var a = Math.random();
+    var random = Math.floor(a*11);
+
+    function checkk()
+    {
+
+        var inputt = Number(input.value)
+                if(random == inputt){
+                    
+                    result.textContent="right";
+                    alert("OMAALAAH!!")
+
+                    finalscore = finalscore + 1;
+
+                }
+                else{
+                    
+                    result.textContent="wrong";
+                    alert("MUTTA PUNDA!!")
+
+                    finalscore = finalscore - 1;
+                    score.textContent = "Score = " +finalscore;
+                }
+    }
+</script>

@@ -1,0 +1,13 @@
+<button onclick="call()">Click</button>
+
+<h1 id = "hello"></h1>
+
+<script>
+    var Hello= document.getElementById("hello");
+
+    function call(){
+        var h1 = document.createElement("h1");
+        h1.textContent="Hello";
+        Hello.append(h1)
+    }
+</script>

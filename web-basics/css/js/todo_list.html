@@ -1,0 +1,11 @@
+<div id="div">
+    <h1>one</h1>
+    <h1>two</h1>
+</div>
+
+<script>
+    var div =document.getElementById("div");
+    var create = document.createElement("h1");
+    create.textContent="hello";
+    div.insertAdjacentElement("afterend",create);
+</script>

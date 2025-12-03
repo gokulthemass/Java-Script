@@ -1,0 +1,66 @@
+body, html {
+  background-color: rgb(138, 24, 209);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  margin: 0;
+  padding: 0;
+  background: rgb(125, 78, 200);
+  height: 590px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table1 {
+  padding-top: 0;
+  padding-left: 50px;
+  margin: 20px;
+  color: white;
+}
+.table2 {
+  background-color: white;
+  padding: 18px 24px 10px 24px;
+  border-radius: 10px;
+  min-width: 230px;
+}
+.table2 input[type="number"], .table2 select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid purple;
+  margin-bottom: 8px;
+  font-size: 16px;
+  width: 90%;
+}
+.table2 td {
+  padding: 4px 6px;
+}
+.table2 tr {
+  height: 36px;
+}
+.rate {
+  font-size:14px; color: purple;
+}
+.fee {
+  color: purple;
+}
+.submit-btn {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 18px;
+  background: rgb(132, 64, 215);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.50s;
+}
+.submit-btn:hover {
+  background: rgb(97, 44, 168);
+}
+h1 {
+  margin-bottom: 12px;
+}

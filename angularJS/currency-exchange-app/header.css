@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+table{
+    background-color: rgba(47, 2, 102, 0.877);
+    color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+    border: 1px;
+}
+
+.mr{
+    padding: 10px;
+}
+
+.right{
+    padding: 10px;
+    text-align: right;
+    
+}
+
+.login {
+  background-color: blueviolet;
+  color: aliceblue;
+  width: 50px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.or {
+  color: aliceblue;
+  margin: 8px;
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.register {
+  background-color: blueviolet;
+  color: aliceblue;
+  margin-left: 8px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 20px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(61, 2, 115, 0.875);
+
+}
+
+.h2{
+    margin: 0px;
+    color: aliceblue;
+    padding-left: 12px;
+}
+
+.currency_details a {
+    padding-left: 30px;
+    color: aliceblue !important;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.modal{
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #088888;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.close-btn{
+  cursor: pointer;
+  width: 15px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.close{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cd{
+  padding-top: 5px;
+}
+
+.login_modal{
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #088888;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content{
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login_close_btn{
+  cursor: pointer;
+  width: 15px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.login_close{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.loginpop{
+  width: 150px;
+  border-radius: 10px;
+  padding: 4px 7px;
+}
+
+.loginpop1, .loginpop2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.sub-btn{
+  width: 100%; 
+  height: 25px;
+  padding: 10px 10px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.reg_modal{
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #088888;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-content{
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.reg_close_btn{
+  cursor: pointer;
+  width: 15px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.reg_close{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.regpop{
+  width: 150px;
+  border-radius: 10px;
+  padding: 4px 7px;
+}
+
+.regpop1, .regpop2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.regsub-btn{
+  width: 100%; 
+  height: 25px;
+  padding: 10px 10px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+  background-color: rgb(138, 24, 209);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.table1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(93, 23, 134);
+    align-items: center;
+}
+
+.INSTAGRAM, .FACEBOOK, .GMAIL{
+    color: aliceblue;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+<table>
+  <caption><b>Calculator</b></caption>
+  <tr>
+    <td class="firstnumber">First number</td>
+    <td><input type="number" #firsnumber placeholder="firstnumber"></td>
+  </tr>
+
+    <tr>
+    <td class="secondnumber">second number</td>
+    <td><input type="number" #secondnumber placeholder="secondnumber"></td>
+  </tr>
+
+  <tr>
+  <td></td>
+  <td class="center-content">
+    <button (click)="add(firsnumber.value, secondnumber.value)">Add</button>
+    <button (click)="sub(firsnumber.value, secondnumber.value)">Sub</button>
+  </td>
+  </tr>
+
+  <tr>
+  <td></td>
+  <td class="center-content">
+    <button (click)="div(firsnumber.value, secondnumber.value)">Div</button>
+    <button (click)="mul(firsnumber.value, secondnumber.value)">Mul</button>
+  </td>
+  </tr>
+
+  <tr>
+
+    <td>result</td>
+    <td><b>{{result}}</b></td>
+  
+  </tr>
+</table>
